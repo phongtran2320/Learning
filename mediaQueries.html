@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        padding: 1% 2%;
+        background-color: silver;
+        color: brown;
+    }
+    
+    .content {
+        width: 100%;
+        height: 700px;
+        background-color: lightgreen;
+    }
+    
+    @media only screen and (min-width: 300px) {
+        .box {
+            padding: 1% 2%;
+            background-color: silver;
+            color: brown;
+        }
+        .content {
+            width: 100%;
+            height: 700px;
+            background-color: lightblue;
+        }
+        @media only screen and (min-width: 700px) {
+            .box {
+                padding: 1% 2%;
+                background-color: silver;
+                color: brown;
+            }
+            .content {
+                width: 100%;
+                height: 700px;
+                background-color: lightpink;
+            }
+        }
+        @media only screen and (min-width: 900px) {
+            .box {
+                padding: 1% 2%;
+                background-color: silver;
+                color: brown;
+            }
+            .content {
+                width: 100%;
+                height: 700px;
+                background-color: lightgreen;
+            }
+        }
+    }
+</style>
+
+<body>
+    <div class="content">
+        <div class="box">
+            chao buoi sang
+        </div>
+    </div>
+</body>
+
+</html>
